@@ -1,13 +1,13 @@
 // Deploying with default ports.
 
-// On windows run powerShell with administrator rights
+// On windows, run powerShell with administrator rights
 
   // To set mongo path:
       >  $env:MONGO_URL="mongodb:host:PORT/db"
   
   // Check path:
-      > echo $env:MONGO_URL
+      >  echo $env:MONGO_URL
       
       
   // Run meteor, no needed to add --settings, already set ( settings.json ) on npm start:
-      > npm start
+      >  npm start
